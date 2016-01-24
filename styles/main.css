@@ -1,0 +1,17 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/*.mainFooter, .push
+{
+	height: 300px;
+}*/
+
+.mainFooter
+{
+	width: 100%;
+	background-color: blue;
+}
