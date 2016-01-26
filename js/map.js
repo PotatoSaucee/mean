@@ -14,16 +14,23 @@ function initMap() {
       },
       {
         featureType: 'water',
-        stylers: [{color: '#890000'}]
+        stylers: [{color: '#1f4788'}]
+    },
+      {
+          featureType: 'landscape',
+          stylers: [{color: '#19b5fe'}]
+
       }
-    ], {
+    ],
+
+     {
       name: 'Custom Style'
   });
   var customMapTypeId = 'custom_style';
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 2,
-    center: {lat: 40.674, lng: -73.946},  // Brooklyn.
+    center: {lat: 0, lng: 0},  //center world
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
     }
