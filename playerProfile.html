@@ -27,26 +27,100 @@
         <hr>
     </header>
 
-    <div class="group">
-        <section><h2>Player Overview<h2><hr></section>
-        <section><h2>Biography</h2><hr></section>
-        <section><h2>Competitive Statistics</h2><hr></section>
-        <section><h2>Solo Queue Statistics </h2><hr></section>
-
-        <aside>
+    <aside>
+        <!-- <div id="upperProfileContainer">
+            <img src="images/lustboy.jpg" id ="profilePicture" />
             <div><h3>IGN</h3></div>
-            <div><h3>Status<h3></div>
-            <div><h3>Team Name<h3></div>
+            <hr>
+            <div><h3>Status</h3></div>
+            <hr>
+            <div><h3>Team Name</h3></div>
+        </div>
+
+        <div id="clear"></div>
+        <hr> -->
+
+        <table id="profileTable" border="1" style="width: 100%">
+            <tr>
+                <td><h3>IGN</h3></td>
+                <td rowspan="3"><img src="images/lustboy.jpg" id ="profilePicture" /></td>
+            </tr>
+            <tr>
+                <td><h3>Status</h3></td>
+            </tr>
+            <tr>
+                <td><h3>Team Name</h3></td>
+            </tr>
+
+        </table>
+
+        <div id="belowImgInfo">
             <div><h3>Previous Teams<h3></div>
+            <hr>
             <div><h3>Position</h3></div>
+            <hr>
             <div><h3>Previous Position</h3></div>
-        </aside>
-    </div>
+            <hr>
+        </div>
+    </aside>
+
+        <!-- <section><h2>Player Overview<h2></section>
+        <section><h2>Biography</h2></section>
+        <section><h2>Competitive Statistics</h2></section>
+        <section><h2>Solo Queue Statistics </h2></section> -->
+
+        <nav>
+            <ul class="mainMenu">
+
+                <li class="menuParent1"><section class="sectionHeader"><h2>Player Overview<h2></section>
+                </li>
+                    <li class="subMenu1">
+                        <section class="subSection">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam, nulla quis hendrerit auctor, arcu est commodo lectus, blandit pharetra odio odio eget nulla. Cras sit amet leo eu lorem molestie sagittis sit amet vel neque. Suspendisse tincidunt nisl nec neque pharetra porta. Morbi facilisis convallis felis, et consequat tellus laoreet vel. Ut bibendum posuere est, ut facilisis massa porttitor et. Curabitur eget nulla hendrerit, sollicitudin justo nec, posuere erat. Sed vel vulputate sem. Etiam scelerisque semper nisi sed condimentum. In maximus mi ac dui viverra, auctor tincidunt diam rutrum. Sed ut turpis et quam varius faucibus.
+
+                        Integer vel gravida odio. Praesent in dui mauris. Donec tortor eros, varius ullamcorper consectetur vitae, interdum non velit. Sed euismod ex id efficitur sagittis. Aenean scelerisque elit nec nisl fermentum, id dapibus massa sodales. Nullam at elit luctus, imperdiet nisl placerat, dapibus ex. Donec quis ex a velit lacinia bibendum. In suscipit mattis felis at lobortis. Curabitur a maximus ante, non aliquet eros. Ut eleifend interdum blandit. Integer porta non lectus sed suscipit. Proin erat nisi, consequat et eros sodales, facilisis ultricies magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis neque ante.
+                        </p>
+                        </section>
+                    </li>
+                </ul>
+
+                <ul class="mainMenu">
+                    <li class="menuParent2"><section class="sectionHeader"><h2>Biography</h2></section>
+                    </li>
+                        <li class="subMenu2">
+                        <section class="subSection">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam, nulla quis hendrerit auctor, arcu est commodo lectus, blandit pharetra odio odio eget nulla. Cras sit amet leo eu lorem molestie sagittis sit amet vel neque. Suspendisse tincidunt nisl nec neque pharetra porta. Morbi facilisis convallis felis, et consequat tellus laoreet vel. Ut bibendum posuere est, ut facilisis massa porttitor et. Curabitur eget nulla hendrerit, sollicitudin justo nec, posuere erat. Sed vel vulputate sem. Etiam scelerisque semper nisi sed condimentum. In maximus mi ac dui viverra, auctor tincidunt diam rutrum. Sed ut turpis et quam varius faucibus.
+
+                            Integer vel gravida odio. Praesent in dui mauris. Donec tortor eros, varius ullamcorper consectetur vitae, interdum non velit. Sed euismod ex id efficitur sagittis. Aenean scelerisque elit nec nisl fermentum, id dapibus massa sodales. Nullam at elit luctus, imperdiet nisl placerat, dapibus ex. Donec quis ex a velit lacinia bibendum. In suscipit mattis felis at lobortis. Curabitur a maximus ante, non aliquet eros. Ut eleifend interdum blandit. Integer porta non lectus sed suscipit. Proin erat nisi, consequat et eros sodales, facilisis ultricies magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis neque ante.
+                            </p>
+                        </section>
+                        </li>
+                </ul>
+
+                <ul class="mainMenu">
+                    <li class="menuParent3"><section class="sectionHeader">
+                        <h2>Competitive Statistics</h2></section>
+                    </li>
+                        <section class="subSection"></section>
+                </ul>
+
+                <ul class="mainMenu">
+                    <li class="menuParent4"><section class="sectionHeader">
+                        <h2>Solo Queue Statistics </h2></section>
+                    </li>
+                        <section class="subSection"></section>
+
+                </ul>
 
 
+        </nav>
 
 
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/playerprofile.js"></script>
 
 </body>
 </html>
