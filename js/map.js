@@ -14,11 +14,11 @@ function initMap() {
       },
       {
         featureType: 'water',
-        stylers: [{color: '#1f4788'}]
+        stylers: [{color: '#19b5fe'}]
     },
       {
           featureType: 'landscape',
-          stylers: [{color: '#19b5fe'}]
+          stylers: [{color: '#000000'}]
 
       }
     ],
@@ -27,6 +27,8 @@ function initMap() {
       name: 'Custom Style'
   });
   var customMapTypeId = 'custom_style';
+
+  
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 2,
